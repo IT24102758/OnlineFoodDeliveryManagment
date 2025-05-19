@@ -156,7 +156,7 @@
         <a href="logout.jsp" class="bg-white text-gray-600 border border-gray-300 px-4 py-2 rounded hover:bg-gray-100">Logout</a>
     </nav>
 </header>
-
+<!-- Main Content -->
 <!-- Main Content -->
 <main class="container my-5">
     <div class="edit-container">

@@ -1,0 +1,8 @@
+1,Admin User,admin@example.com,admin123,Admin Address,111-222-3333,Admin,0.0
+2,Driver User,drive@example.com,drive123,Driver Address,111-222-3333,driver,0.0
+3,Jane Smith,jane@example.com,pass456,456 Oak Ave,987-654-3210,Premium,15.0
+4,Nimsara Priyamalka,nimsarapriyamalka@gmail.com,123456,Colombo,0717629547,Regular,5.0
+5,John Doe,john@example.com,password123,123 Main St,123-456-7890,Regular,5.0
+6,Nisura,Nisura123@gmail.com,123456,Colombo,02256369850,Regular,5.0
+7,kasun,kasun@gmail.com,123456,Colombo,02256369857,Regular,5.0
+8,sadaru,sadaru@gmail.com,123456,horana,0785945556,Premium,15.0

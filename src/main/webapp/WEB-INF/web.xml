@@ -24,7 +24,14 @@
   <!--    <servlet-name>RestaurantServlet</servlet-name>-->
   <!--    <url-pattern>/test</url-pattern>-->
   <!--  </servlet-mapping>-->
-
+  <servlet>
+    <servlet-name>MenuServlet</servlet-name>
+    <servlet-class>servlet.MenuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MenuServlet</servlet-name>
+    <url-pattern>/menu</url-pattern>
+  </servlet-mapping>
 
   <servlet-mapping>
     <servlet-name>default</servlet-name>

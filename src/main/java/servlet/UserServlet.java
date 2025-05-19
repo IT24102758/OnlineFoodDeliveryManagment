@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpSession;
 import model.User;
 import model.RegularCustomer;
 import model.PremiumCustomer;
-import model.RestaurantOwner;
 import model.Order;
 import model.Restaurant;
 import utils.FileUtils;
@@ -258,8 +257,7 @@ protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws S
         } else if ("Admin".equals(type)) {
             user = new PremiumCustomer(String.valueOf(newId), name, email, password, address, phone);
             user.setType("Admin");
-        } else if ("Restaurant".equals(type)) {
-            user = new RestaurantOwner(String.valueOf(newId), name, email, password, address, phone);
+
         } else if ("driver".equals(type)) {
             user = new RegularCustomer(String.valueOf(newId), name, email, password, address, phone);
             user.setType("driver");
@@ -292,8 +290,7 @@ protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws S
                 User updatedUser;
                 if ("Premium".equals(type)) {
                     updatedUser = new PremiumCustomer(id, name, email, password, address, phone);
-                } else if ("Restaurant".equals(type)) {
-                    updatedUser = new RestaurantOwner(id, name, email, password, address, phone);
+
                 } else if ("Admin".equals(type)) {
                     updatedUser = new PremiumCustomer(id, name, email, password, address, phone);
                     updatedUser.setType("Admin");

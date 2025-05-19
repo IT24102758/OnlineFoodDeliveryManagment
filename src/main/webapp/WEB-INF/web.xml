@@ -32,7 +32,14 @@
     <servlet-name>MenuServlet</servlet-name>
     <url-pattern>/menu</url-pattern>
   </servlet-mapping>
-
+  <servlet>
+    <servlet-name>DeliveryServlet</servlet-name>
+    <servlet-class>servlet.DeliveryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeliveryServlet</servlet-name>
+    <url-pattern>/delivery</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>default</servlet-name>
     <url-pattern>/assets/images/*</url-pattern>

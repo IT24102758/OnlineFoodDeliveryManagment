@@ -24,6 +24,18 @@
   <!--    <servlet-name>RestaurantServlet</servlet-name>-->
   <!--    <url-pattern>/test</url-pattern>-->
   <!--  </servlet-mapping>-->
+
+  <!-- Other servlets can be added here if needed -->
+  <servlet>
+    <servlet-name>RestaurantServlet</servlet-name>
+    <servlet-class>servlet.RestaurantServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RestaurantServlet</servlet-name>
+    <url-pattern>/restaurant</url-pattern>
+    <url-pattern>/cuisineSelection</url-pattern>
+    <url-pattern>/restaurantByCuisine</url-pattern>
+  </servlet-mapping>
   <servlet>
     <servlet-name>MenuServlet</servlet-name>
     <servlet-class>servlet.MenuServlet</servlet-class>
@@ -33,12 +45,52 @@
     <url-pattern>/menu</url-pattern>
   </servlet-mapping>
   <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>servlet.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>servlet.PaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentServlet</servlet-name>
+    <url-pattern>/payment</url-pattern>
+  </servlet-mapping>
+  <servlet>
     <servlet-name>DeliveryServlet</servlet-name>
     <servlet-class>servlet.DeliveryServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>DeliveryServlet</servlet-name>
     <url-pattern>/delivery</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ReviewServlet</servlet-name>
+    <servlet-class>servlet.ReviewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewServlet</servlet-name>
+    <url-pattern>/review</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SupportServlet</servlet-name>
+    <servlet-class>servlet.SupportServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SupportServlet</servlet-name>
+    <url-pattern>/support</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>default</servlet-name>

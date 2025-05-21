@@ -6,3 +6,4 @@
 6,Nisura,Nisura123@gmail.com,123456,Colombo,02256369850,Regular,5.0
 7,kasun,kasun@gmail.com,123456,Colombo,02256369857,Regular,5.0
 8,sadaru,sadaru@gmail.com,123456,horana,0785945556,Premium,15.0
+9,pasan,pasan@gmail.come,123,bandarswgama,64541561561561651,Regular,5.0

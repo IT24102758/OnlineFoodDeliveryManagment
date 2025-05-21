@@ -116,8 +116,10 @@
                     <span class="icon"><i class="fas fa-envelope"></i></span>
                 </div>
             <div class="input-group">
-                        <input type="password" id="password" name="password" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:border-orange-600" placeholder="Enter your password">
-                        <span class="icon"><i class="fas fa-lock"></i></span>
+
+                    <input type="password" name="password" class="w-full p-2 border rounded" placeholder="Enter your password" required>
+                    <span class="icon"><i class="fas fa-lock"></i></span>
+
                     </div>
                 <div class="text-center">
                     <button type="submit" class="bg-yellow-500 text-white px-6 py-2 rounded-md hover:bg-yellow-600 transition hover-scale" id="loginButton">Login</button>

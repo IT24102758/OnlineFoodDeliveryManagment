@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>About Us - Pizza Cow</title>
+    <title>About Us - Food Bridge Network</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .bg-orange-gradient {
@@ -34,7 +34,7 @@
     <header class="bg-white p-4 flex justify-between items-center shadow-md">
         <div class="flex items-center">
             <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-            <span class="ml-2 text-xl font-semibold text-yellow-500">Pizza Cow</span>
+            <span class="ml-2 text-xl font-semibold text-yellow-500"> Food Bridge Network</span>
         </div>
         <nav class="space-x-4">
 
@@ -48,8 +48,8 @@
     <main class="flex-grow bg-orange-gradient">
         <div class="container mx-auto py-16 px-4">
             <div class="text-center text-white mb-12 fade-in">
-                <h1 class="text-4xl font-bold mb-4">About Pizza Cow</h1>
-                <p class="text-lg max-w-2xl mx-auto">At Pizza Cow, we’re passionate about bringing delicious food from your favorite local restaurants right to your door. Founded in 2023, our mission is to make every craving count with fast, reliable, and delightful delivery.</p>
+                <h1 class="text-4xl font-bold mb-4">About Food Bridge Network</h1>
+                <p class="text-lg max-w-2xl mx-auto">At Food Bridge Network, we’re passionate about bringing delicious food from your favorite local restaurants right to your door. Founded in 2023, our mission is to make every craving count with fast, reliable, and delightful delivery.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 <div class="bg-white p-6 rounded-lg card fade-in">
@@ -74,9 +74,9 @@
     <footer class="bg-orange-gradient p-4 text-white text-center">
         <div class="flex justify-center mb-2">
             <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-            <span class="ml-2 text-xl font-semibold">Pizza Cow</span>
+            <span class="ml-2 text-xl font-semibold">Food Bridge Network</span>
         </div>
-        <p class="text-sm">© 2025 Pizza Cow Inc. All Rights Reserved</p>
+        <p class="text-sm">© 2025 Food Bridge Network Inc. All Rights Reserved</p>
     </footer>
 </body>
 </html>

@@ -89,7 +89,7 @@
     <header class="bg-white p-4 flex justify-between items-center shadow-md">
         <div class="flex items-center">
             <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-            <span class="ml-2 text-xl font-semibold text-yellow-500">Pizza Cow</span>
+            <span class="ml-2 text-xl font-semibold text-yellow-500">Food Bridge Network</span>
         </div>
         <nav class="space-x-4">
             <a href="index.jsp" class="text-gray-600 hover:text-yellow-500">Home</a>
@@ -103,7 +103,7 @@
     <main class="container mx-auto mt-12 flex-grow flex items-center justify-center">
         <div class="max-w-md w-full mx-auto bg-white p-8 rounded-lg login-card">
             <div class="text-center mb-6">
-                <h2 class="text-3xl font-bold text-yellow-500 fade-in">Welcome to Pizza Cow</h2>
+                <h2 class="text-3xl font-bold text-yellow-500 fade-in">Welcome to Food Bridge Network</h2>
                 <p class="text-gray-600 mt-2">Login to enjoy delicious meals at your doorstep</p>
             </div>
             <% if (request.getParameter("error") != null) { %>
@@ -133,9 +133,9 @@
     <footer class="bg-orange-gradient p-4 text-white text-center mt-auto">
         <div class="flex justify-center mb-2">
             <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-            <span class="ml-2 text-xl font-semibold">Pizza Cow</span>
+            <span class="ml-2 text-xl font-semibold">Food Bridge Network</span>
         </div>
-        <p class="text-sm">© 2025 Pizza Cow Inc. All Rights Reserved</p>
+        <p class="text-sm">© 2025 Food Bridge Network Inc. All Rights Reserved</p>
     </footer>
 
     <script>

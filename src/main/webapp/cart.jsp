@@ -130,7 +130,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="home.jsp">
                 <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-                <span class="ml-2 text-xl font-semibold text-yellow-500">Pizza Cow</span>
+                <span class="ml-2 text-xl font-semibold text-yellow-500">Food Bridge Network</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -312,7 +312,7 @@
         </div>
         <div class="text-center mt-4">
             <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold mx-auto">PC</div>
-            <span class="block text-xl font-semibold">Pizza Cow</span>
+            <span class="block text-xl font-semibold">Food Bridge Network</span>
             <p class="text-sm mt-2">© 2025 Food Delivery System. All Rights Reserved.</p>
         </div>
     </div>

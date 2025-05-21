@@ -2,7 +2,7 @@
 <%@ page import="model.Review, utils.FileUtils, java.util.List, java.util.ArrayList, java.io.IOException" %>
 <html>
 <head>
-    <title>View Review - Pizza Cow</title>
+    <title>View Review - Food Bridge Network </title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .bg-orange-gradient {
@@ -114,7 +114,7 @@
             <div class="container mx-auto flex justify-between items-center">
                 <a href="home.jsp" class="navbar-brand">
                     <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-                    <span class="ml-2 text-xl font-semibold text-yellow-500">Pizza Cow</span>
+                    <span class="ml-2 text-xl font-semibold text-yellow-500">Food Bridge Network</span>
                 </a>
                 <div class="space-x-4">
                     <a href="logout.jsp" class="nav-link">Logout</a>
@@ -143,7 +143,7 @@
         <div class="container mx-auto text-center">
             <div class="flex justify-center mb-4">
                 <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-                <span class="ml-2 text-xl font-semibold">Pizza Cow</span>
+                <span class="ml-2 text-xl font-semibold">Food Bridge Network</span>
             </div>
             <div class="mb-4">
                 <h5 class="text-lg font-semibold">Quick Links</h5>
@@ -159,7 +159,7 @@
                 <a href="#" class="text-yellow-500 hover:text-yellow-300"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="text-yellow-500 hover:text-yellow-300"><i class="fab fa-instagram"></i></a>
             </div>
-            <p class="mt-4 text-sm">© 2025 Pizza Cow Inc. All Rights Reserved.</p>
+            <p class="mt-4 text-sm">© 2025 Food Bridge Network Inc. All Rights Reserved.</p>
         </div>
     </footer>
 

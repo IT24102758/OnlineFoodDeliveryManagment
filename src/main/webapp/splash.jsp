@@ -80,7 +80,7 @@
     <header class="bg-white p-4 flex justify-between items-center shadow-md">
         <div class="flex items-center">
             <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-            <span class="ml-2 text-xl font-semibold text-yellow-500">Pizza Cow</span>
+            <span class="ml-2 text-xl font-semibold text-yellow-500">Food Bridge Network</span>
         </div>
         <nav class="space-x-4">
 
@@ -144,9 +144,9 @@
     <footer class="bg-orange-gradient p-4 text-white text-center">
         <div class="flex justify-center mb-2">
             <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-            <span class="ml-2 text-xl font-semibold">Pizza Cow</span>
+            <span class="ml-2 text-xl font-semibold">Food Bridge Network</span>
         </div>
-        <p class="text-sm">© 2025 Pizza Cow Inc. All Rights Reserved</p>
+        <p class="text-sm">© 2025 Food Bridge Network Inc. All Rights Reserved</p>
     </footer>
 
     <script>

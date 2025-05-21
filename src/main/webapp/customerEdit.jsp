@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Edit Customer Profile - Pizza Cow</title>
+    <title>Edit Customer Profile - Food Bridge Network</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -146,7 +146,7 @@
 <header class="bg-white p-4 flex justify-between items-center shadow-md">
     <div class="flex items-center">
         <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-        <span class="ml-2 text-xl font-semibold text-yellow-500">Pizza Cow</span>
+        <span class="ml-2 text-xl font-semibold text-yellow-500">Food Bridge Network</span>
     </div>
     <nav class="space-x-4">
         <a href="home.jsp" class="text-gray-600 hover:text-yellow-500">Home</a>
@@ -243,7 +243,7 @@
 <footer class="bg-orange-gradient p-6 text-white text-center">
     <div class="flex justify-center mb-4">
         <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">PC</div>
-        <span class="ml-2 text-xl font-semibold">Pizza Cow</span>
+        <span class="ml-2 text-xl font-semibold">Food Bridge Network</span>
     </div>
     <div class="mb-4">
         <h5 class="text-lg font-semibold">Quick Links</h5>
@@ -259,7 +259,7 @@
         <a href="#" class="text-cyan-300 hover:text-cyan-200"><i class="fab fa-twitter"></i></a>
         <a href="#" class="text-cyan-300 hover:text-cyan-200"><i class="fab fa-instagram"></i></a>
     </div>
-    <p class="mt-4 text-sm">© 2025 Pizza Cow Inc. All Rights Reserved.</p>
+    <p class="mt-4 text-sm">© 2025 Food Bridge Network Inc. All Rights Reserved.</p>
 </footer>
 </body>
 </html>

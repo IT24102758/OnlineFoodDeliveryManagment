@@ -3,7 +3,7 @@
 <%@ page import="model.Restaurant" %>
 <html>
 <head>
-    <title>Restaurants by Cuisine - Pizza Cow</title>
+    <title>Restaurants by Cuisine - Food Bridge Network</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Font Awesome for Icons -->
@@ -13,7 +13,7 @@
     <!-- Custom CSS for Additional Styling -->
     <style>
         body {
-            background: linear-gradient(90deg, #f97316, #fdba74); /* Pizza Cow orange gradient */
+            background: linear-gradient(90deg, #f97316, #fdba74);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -77,7 +77,7 @@
 <header>
     <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;"> <!-- White background -->
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Pizza Cow</a>
+            <a class="navbar-brand" href="#">Food Bridge Network</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -196,7 +196,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
-                <h5 class="text-uppercase">Pizza Cow</h5>
+                <h5 class="text-uppercase">Food Bridge Network</h5>
                 <p>Your one-stop platform for ordering food online.</p>
             </div>
             <div class="col-md-4 text-center mb-3 mb-md-0">
@@ -220,7 +220,7 @@
             </div>
         </div>
         <div class="text-center mt-4">
-            <p>© 2025 Pizza Cow Inc. All Rights Reserved.</p>
+            <p>© 2025 Food Bridge Network Inc. All Rights Reserved.</p>
         </div>
     </div>
 </footer>
